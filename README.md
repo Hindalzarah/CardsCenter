@@ -18,7 +18,7 @@
 * Describtion of how some of my favorite functions work.
 
 
-### TECHNOLOGIES:
+### Technologies:
 
 <hr>
 
