@@ -1,0 +1,12 @@
+/* 
+  Localizable.strings
+  addNoteView
+
+  Created by Hind on 18/06/1444 AH.
+  
+*/
+"My Cards" = "بطاقاتي";
+"Try adding a card" = "اضف بطاقة جديدة";
+"Add a title!" = "اضف عنوان للبطاقة";
+"Add a title" = "اضف عنوان للبطاقة";
+"Confirm Changes" = "حفظ التغيير";

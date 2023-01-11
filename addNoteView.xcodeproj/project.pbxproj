@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B35E5E2D296D4EA100CAC967 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35E5E2C296D4EA100CAC967 /* HomeView.swift */; };
+		B35E5E2F296D4EB200CAC967 /* NoteDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35E5E2E296D4EB200CAC967 /* NoteDetailView.swift */; };
+		B35E5E32296EBD3400CAC967 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = B35E5E34296EBD3400CAC967 /* Localizable.strings */; };
 		B38CAC2A296D4AF8000A2C20 /* addNoteViewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38CAC29296D4AF8000A2C20 /* addNoteViewApp.swift */; };
 		B38CAC2C296D4AF8000A2C20 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38CAC2B296D4AF8000A2C20 /* ContentView.swift */; };
 		B38CAC2E296D4AF9000A2C20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B38CAC2D296D4AF9000A2C20 /* Assets.xcassets */; };
@@ -14,6 +17,8 @@
 		B38CAC3B296D4AF9000A2C20 /* addNoteViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38CAC3A296D4AF9000A2C20 /* addNoteViewTests.swift */; };
 		B38CAC45296D4AF9000A2C20 /* addNoteViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38CAC44296D4AF9000A2C20 /* addNoteViewUITests.swift */; };
 		B38CAC47296D4AF9000A2C20 /* addNoteViewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38CAC46296D4AF9000A2C20 /* addNoteViewUITestsLaunchTests.swift */; };
+		B38CAC55296D4CD6000A2C20 /* imagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38CAC54296D4CD6000A2C20 /* imagePicker.swift */; };
+		B38CAC59296D4DBE000A2C20 /* ImageDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38CAC58296D4DBE000A2C20 /* ImageDataModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B35E5E2C296D4EA100CAC967 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		B35E5E2E296D4EB200CAC967 /* NoteDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteDetailView.swift; sourceTree = "<group>"; };
+		B35E5E33296EBD3400CAC967 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		B35E5E35296EBD7000CAC967 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
 		B38CAC26296D4AF8000A2C20 /* addNoteView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = addNoteView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B38CAC29296D4AF8000A2C20 /* addNoteViewApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addNoteViewApp.swift; sourceTree = "<group>"; };
 		B38CAC2B296D4AF8000A2C20 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +53,8 @@
 		B38CAC40296D4AF9000A2C20 /* addNoteViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = addNoteViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B38CAC44296D4AF9000A2C20 /* addNoteViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addNoteViewUITests.swift; sourceTree = "<group>"; };
 		B38CAC46296D4AF9000A2C20 /* addNoteViewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addNoteViewUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B38CAC54296D4CD6000A2C20 /* imagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imagePicker.swift; sourceTree = "<group>"; };
+		B38CAC58296D4DBE000A2C20 /* ImageDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDataModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +105,10 @@
 		B38CAC28296D4AF8000A2C20 /* addNoteView */ = {
 			isa = PBXGroup;
 			children = (
+				B38CAC56296D4D40000A2C20 /* ImageData */,
 				B38CAC29296D4AF8000A2C20 /* addNoteViewApp.swift */,
-				B38CAC2B296D4AF8000A2C20 /* ContentView.swift */,
+				B38CAC5A296D4DD6000A2C20 /* Views */,
+				B38CAC53296D4CA8000A2C20 /* ImagePickerFeature */,
 				B38CAC2D296D4AF9000A2C20 /* Assets.xcassets */,
 				B38CAC2F296D4AF9000A2C20 /* Preview Content */,
 			);
@@ -125,6 +138,41 @@
 				B38CAC46296D4AF9000A2C20 /* addNoteViewUITestsLaunchTests.swift */,
 			);
 			path = addNoteViewUITests;
+			sourceTree = "<group>";
+		};
+		B38CAC53296D4CA8000A2C20 /* ImagePickerFeature */ = {
+			isa = PBXGroup;
+			children = (
+				B38CAC54296D4CD6000A2C20 /* imagePicker.swift */,
+			);
+			path = ImagePickerFeature;
+			sourceTree = "<group>";
+		};
+		B38CAC56296D4D40000A2C20 /* ImageData */ = {
+			isa = PBXGroup;
+			children = (
+				B38CAC57296D4D9B000A2C20 /* Model */,
+			);
+			path = ImageData;
+			sourceTree = "<group>";
+		};
+		B38CAC57296D4D9B000A2C20 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B38CAC58296D4DBE000A2C20 /* ImageDataModel.swift */,
+				B35E5E34296EBD3400CAC967 /* Localizable.strings */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B38CAC5A296D4DD6000A2C20 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B38CAC2B296D4AF8000A2C20 /* ContentView.swift */,
+				B35E5E2C296D4EA100CAC967 /* HomeView.swift */,
+				B35E5E2E296D4EB200CAC967 /* NoteDetailView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -213,6 +261,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ar,
 			);
 			mainGroup = B38CAC1D296D4AF8000A2C20;
 			productRefGroup = B38CAC27296D4AF8000A2C20 /* Products */;
@@ -232,6 +281,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B38CAC31296D4AF9000A2C20 /* Preview Assets.xcassets in Resources */,
+				B35E5E32296EBD3400CAC967 /* Localizable.strings in Resources */,
 				B38CAC2E296D4AF9000A2C20 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,7 +307,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B35E5E2F296D4EB200CAC967 /* NoteDetailView.swift in Sources */,
 				B38CAC2C296D4AF8000A2C20 /* ContentView.swift in Sources */,
+				B38CAC59296D4DBE000A2C20 /* ImageDataModel.swift in Sources */,
+				B38CAC55296D4CD6000A2C20 /* imagePicker.swift in Sources */,
+				B35E5E2D296D4EA100CAC967 /* HomeView.swift in Sources */,
 				B38CAC2A296D4AF8000A2C20 /* addNoteViewApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -294,11 +348,24 @@
 		};
 /* End PBXTargetDependency section */
 
+/* Begin PBXVariantGroup section */
+		B35E5E34296EBD3400CAC967 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B35E5E33296EBD3400CAC967 /* en */,
+				B35E5E35296EBD7000CAC967 /* ar */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
 		B38CAC48296D4AF9000A2C20 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -359,6 +426,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -417,6 +485,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"addNoteView/Preview Content\"";
+				DEVELOPMENT_TEAM = FR5AH52997;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -445,6 +514,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"addNoteView/Preview Content\"";
+				DEVELOPMENT_TEAM = FR5AH52997;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
