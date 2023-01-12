@@ -11,11 +11,11 @@
 <hr>
 
 * List of technologies I  used to develop this app.
-* Link to my wireframe in this case Figma.
+* Link to wireframe in this case Figma.
 * User stories.
 * Story about the development process and problem-solving strategy.
 * List of unsolved problems which would be fixed in future iterations.
-* Describtion of how some of my favorite functions work.
+* Describtion of how some of our favorite functions work.
 
 
 ### Technologies:
@@ -24,7 +24,7 @@
 
 * Figma to create the hi-fi
 * Xcode to develop the app
-* VoiceOver accessability 
+* VoiceOver accessibility 
 * ViewModel Architecture 
 
 <hr>
