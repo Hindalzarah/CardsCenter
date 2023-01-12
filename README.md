@@ -44,13 +44,13 @@
 
 1. As a user, I want an app that I can upload and save business cards so that I don't lose them.
 3. As a user, I want a feature in the app that allows me to add, update, delete notes to the business cards so that I remember information about a specific card.
-4. As a user, I want a a VoiceOveer feature to read the text displayed on the screen so that I be able to use the app.
+4. As a user, I want a a VoiceOver feature to read the text displayed on the screen so that I be able to use the app.
 5. As a user, I want to be able to change the language of the app so that I can choose my preferred language.
 
 <hr>
 
 ### Development Process:
-Using the CBL, We recognized a problem regarding business events attendies. We realized that collecting important business cards and storing them can be hard, as we usually tend to lose them or simpaly forget where we got them from. Facing this problem ourselves we came up with CardsCenter, an app that allows you to store business cards and most importantly add notes to them.
+Using the CBL, We recognized a problem regarding business events attendies. We realized that collecting important business cards and storing them can be hard, as we usually tend to lose them or simply forget where we got them from. Facing this problem ourselves we came up with CardsCenter, an app that allows you to store business cards and most importantly add notes to them.
 
 ### Favorite Functions:
 * VoiceOver
