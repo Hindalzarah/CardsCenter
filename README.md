@@ -42,7 +42,7 @@
 
 ### USER STORIES:
 
-1. As a user, I want an app that I can upload and save business cards so that I don't use them.
+1. As a user, I want an app that I can upload and save business cards so that I don't lose them.
 3. As a user, I want a feature in the app that allows me to add, update, delete notes to the business cards so that I remember information about a specific card.
 4. As a user, I want a a VoiceOveer feature to read the text displayed on the screen so that I be able to use the app.
 5. As a user, I want to be able to change the language of the app so that I can choose my preferred language.
