@@ -10,22 +10,42 @@
 
 <hr>
 
+* Big Idea
+* Challenge Statement
+* Solution Concept
 * List of technologies I  used to develop this app.
 * Link to wireframe in this case Figma.
 * User stories.
-* Story about the development process and problem-solving strategy.
 * List of unsolved problems which would be fixed in future iterations.
 * Describtion of how some of our favorite functions work.
+* a brief demo of the app
 
+
+### Big Idea:
+Using the CBL, We recognized a problem regarding business events attendees. We realized that collecting important business cards and storing them can be hard, as we usually tend to lose them or simply forget where we got them from. Facing this problem ourselves we came up with CardsCenter, an app that allows you to store business cards and most importantly add notes to them.
+
+<hr>
+
+### Challenge Statement 
+Creating a method that help business events attendees to collect and store business cards
+
+<hr>
+
+### Solution Concept
+Build an app that allows business events attendees to store and manage business cards as well as the ability to write notes related to a specific card.
+
+<hr>
 
 ### Technologies:
 
 <hr>
 
+* Miro to follow the CBL 
 * Figma to create the hi-fi
 * Xcode to develop the app
 * VoiceOver accessibility 
 * ViewModel Architecture 
+
 
 <hr>
 
@@ -49,9 +69,6 @@
 
 <hr>
 
-### Development Process:
-Using the CBL, We recognized a problem regarding business events attendies. We realized that collecting important business cards and storing them can be hard, as we usually tend to lose them or simply forget where we got them from. Facing this problem ourselves we came up with CardsCenter, an app that allows you to store business cards and most importantly add notes to them.
-
 ### Favorite Functions:
 * VoiceOver
 the user can access the app based on spoken descriptions 
@@ -62,7 +79,12 @@ the user can add notes to a card to remember a specific detail
 * Localization 
 muliti-language app 
 
+<hr>
 
+### Unsolved Problems
+* Using the scanner to capture the card and generate the shape of card itself and displaying the card in custom frame
+
+<hr>
 
 ### Upcoming Features:
 * Card Scanner
