@@ -6,7 +6,7 @@
 
 <hr>
 
-## topics we're going to include in this readme file:
+## Topics Included in this Readme File:
 
 <hr>
 
@@ -56,15 +56,15 @@ Using the CBL, We recognized a problem regarding business events attendies. We r
 * VoiceOver
 the user can access the app based on spoken descriptions 
 
-* The addNote feature
+* addNote Feature
 the user can add notes to a card to remember a specific detail
 
-* The localization 
+* Localization 
 muliti-language app 
 
 
 
-### Upcoming features:
+### Upcoming Features:
 * Card Scanner
 * Date added sorting
 * Search by name
