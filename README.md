@@ -50,10 +50,21 @@
 <hr>
 
 ### Development Process:
-
+Using the CBL, We recognized a problem regarding business events attendies. We realized that collecting important business cards and storing them can be hard, as we usually tend to lose them or simpaly forget where we got them from. Facing this problem ourselves we came up with CardsCenter, an app that allows you to store business cards and most importantly add notes to them.
 
 ### Favorite Functions:
+* VoiceOver
+the user can access the app based on spoken descriptions 
+
+* The addNote feature
+the user can add notes to a card to remember a specific detail
+
+* The localization 
+muliti-language app 
+
 
 
 ### Upcoming features:
-
+* Card Scanner
+* Date added sorting
+* Search by name
